@@ -1,7 +1,9 @@
+/* *
+ * NOTE: not a practical program. Serves only as orientation for further developments and for another programs using IDispatch for Excel
+ * NOT AN ORIGINAL CODE! * NOT AN ORIGINAL CODE! * NOT AN ORIGINAL CODE! * NOT AN ORIGINAL CODE! * NOT AN ORIGINAL CODE! * NOT AN ORIGINAL CODE! 
+ */
 #include <windows.h>
-
 #include <tchar.h>
-
 #include <cstdio>
 
 const CLSID CLSID_XLApplication = {0x00024500, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; // IID of _Application
